@@ -1,6 +1,8 @@
 de\vmoon\velocityPlugin\VelocityPlugin$Config.class
+de\vmoon\velocityPlugin\commands\ServerCommands.class
 de\vmoon\velocityPlugin\Listeners\ConnectionListener.class
 de\vmoon\velocityPlugin\commands\FreeHasCommand.class
 de\vmoon\velocityPlugin\commands\KickallCommand.class
 velocity-plugin.json
 de\vmoon\velocityPlugin\VelocityPlugin.class
+de\vmoon\velocityPlugin\commands\ReloadConfigsCommand.class

@@ -1,6 +1,19 @@
-# config.yml
+#This is the default config file for the Velocity Plugin by VoidableMoon884
+#For help visti https://velocity.vmoon.de/
+
+#Servers to join with alias commands
 servers:
   - has1
   - has2
   - has3
   - has4
+
+#Aliases for the server list
+fhasAliases:
+  - fhas
+  - freehas
+
+#list of commands for spicific servers
+commandMappings:
+  lobby: lobby
+  hide-and-seek1: has1
