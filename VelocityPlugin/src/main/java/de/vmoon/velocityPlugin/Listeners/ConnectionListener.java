@@ -18,12 +18,12 @@ public class ConnectionListener {
     @Subscribe
     public void onPostLogin(PostLoginEvent event) {
         proxyServer.sendMessage(Component.text(event.getPlayer().getUsername(), NamedTextColor.RED)
-                .append(Component.text(" hat den Server betreten.", NamedTextColor.GREEN)));
+                .append(Component.text(" hat das Netzwerk betreten.", NamedTextColor.GREEN)));
     }
 
     @Subscribe
     public void onDisconnect(DisconnectEvent event) {
         proxyServer.sendMessage(Component.text(event.getPlayer().getUsername(), NamedTextColor.RED)
-                .append(Component.text(" hat den Server verlassen.", NamedTextColor.GREEN)));
+                .append(Component.text(" hat das Netzwerk verlassen.", NamedTextColor.GREEN)));
     }
 }
