@@ -1,0 +1,6 @@
+# config.yml
+servers:
+  - has1
+  - has2
+  - has3
+  - has4
